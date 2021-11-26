@@ -4,4 +4,5 @@ cd ~/klipper_config/
 cp mtw_klipper_config/sample_configs/printer.cfg printer.cfg
 cp mtw_klipper_config/sample_configs/macros-custom.cfg macros-custom.cfg
 ln -s mtw_klipper_config/update_mtw_configs ~/update_mtw_configs
+mkdir ~/config_backups
 chmod 755 ~/mtw_klipper_config/update_mtw_configs
