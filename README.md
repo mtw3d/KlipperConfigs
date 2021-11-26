@@ -15,4 +15,4 @@ To update your configs to the latest version, execute:
 ~/update_mtw_configs
 ```
 
-Updating your config automatically backs up your current config to the directory `~/config_backups`. It keeps the last ten backups, and uautomatically deletes any older than that.
+Updating your config automatically backs up your current config to the directory `~/config_backups`. It keeps the last ten backups, and automatically deletes any older than that.
