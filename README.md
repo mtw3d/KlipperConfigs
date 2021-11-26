@@ -1,11 +1,12 @@
 # KlipperConfigs
 Klipper configurations for MTW printers.
 
-To load the config files onto your printer, SSH to your printer and execute the following two commands:
+To load the config files onto your printer, SSH to your printer and execute the following commands:
 
 ```
+cd ~/klipper_config
 git clone https://github.com/mtw3d/mtw_klipper_config
-bash ~/klipper_config/mtw_klipper_config/setup.klipper
+bash mtw_klipper_config/setup.klipper
 ```
 
 After installing, you will need to edit the file ~/klipper_configs/printer.cfg to point to the correct sample config file. In addition, you can set any necessary settings in this file. 
