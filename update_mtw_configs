@@ -1,0 +1,3 @@
+#! /bin/bash
+cd ~/klipper_config/mtw_printer_config
+git pull
