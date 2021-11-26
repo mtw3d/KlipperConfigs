@@ -2,4 +2,4 @@
 cd ~/klipper_config/
 
 cp mtw_klipper_config/sample_configs/printer.cfg printer.cfg
-cp mtw_klipper_config/sample_configs/macros-custom.cfg macros_custom.cfg
+cp mtw_klipper_config/sample_configs/macros-custom.cfg macros-custom.cfg
