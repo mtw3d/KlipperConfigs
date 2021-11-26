@@ -1,4 +1,4 @@
 #! /bin/bash
-cd ~/klipper_config/mtw_printer_config
+cd ~/klipper_config/mtw_klipper_config
 git pull
 cd ~
