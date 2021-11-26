@@ -2,12 +2,10 @@
 cd ~
 current_time=$(date "+%Y.%m.%d-%H.%M.%S")
 cp -r ~/klipper_config ~/config_backups/klipper_config_$current_time
-backup_count = ls | wc -l
-
-if [$backup_count -gt 10]
-stat --printf='%Y %n\0' * | sort -z | sed -zn '1s/[^ ]\{1,\} //p' | xargs -0 rm
-fi
-
+cd ~/config_backups
+ls -1t | tail -n +11 | xargs rm -f
 cd ~/klipper_config/mtw_klipper_config
 git pull
+cp update_mtw_configs ~/update_mtw_configs
+chmod 755 ~/update_mtw_configs
 cd ~
