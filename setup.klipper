@@ -1,4 +1,9 @@
 #! /bin/bash
 cd ~/klipper_config/
+<<<<<<< HEAD
 cp sample_configs/printer.cfg printer.cfg
 cp sample_configs/macros_custom.cfg macros_custom.cfg
+=======
+cp mtw_klipper_config/sample_configs/printer.cfg printer.cfg
+cp mtw_klipper_config/sample_configs/macros-custom.cfg macros_custom.cfg
+>>>>>>> 756e2b8cf2a2d8f0726148308e35b303a893b781
