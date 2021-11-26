@@ -2,4 +2,3 @@
 cd ~/klipper_config/
 cp sample_configs/printer.cfg printer.cfg
 cp sample_configs/macros_custom.cfg macros_custom.cfg
-cp sample_configs/serial.cfg serial.cfg
