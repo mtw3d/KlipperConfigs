@@ -9,6 +9,7 @@ chmod -R 755 *
 git pull
 cp update_mtw_configs ~/update_mtw_configs
 chmod 755 ~/update_mtw_configs
+chmod -R 444 sample_configs/*
 chmod -R 444 *
 chmod 755 sample_configs
 cd ~
