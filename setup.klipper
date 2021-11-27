@@ -6,3 +6,5 @@ cp -n mtw_klipper_config/sample_configs/macros-custom.cfg macros-custom.cfg
 cp mtw_klipper_config/update_mtw_configs ~/update_mtw_configs
 mkdir ~/config_backups 2>/dev/null
 chmod 755 ~/update_mtw_configs
+chmod 555 mtw_klipper_config/*
+chmod 555 mtw_klipper_config/sample_configs/*
