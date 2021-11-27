@@ -5,7 +5,11 @@ cp -r ~/klipper_config ~/config_backups/klipper_config_$current_time
 cd ~/config_backups
 ls -1t | tail -n +11 | xargs rm -rf
 cd ~/klipper_config/mtw_klipper_config
+chmod 755 *
+chmod 755 sample_configs/*
 git pull
 cp update_mtw_configs ~/update_mtw_configs
 chmod 755 ~/update_mtw_configs
+chmod 555 *
+chmod 555 sample_configs/*
 cd ~
